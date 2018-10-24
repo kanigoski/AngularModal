@@ -16,7 +16,7 @@ export class AppComponent {
       });
 
       dialogRef.afterClosed().subscribe(result => {
-        console.log('Resultado: ${result}');
+        console.log('Teste Resultado: ${result}');
       });
     }
   }
